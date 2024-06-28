@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1350px;
+    max-width: 100%;
+   margin: 0 auto;
+}
+.relative{
+    position: relative;
+}
+a{text-decoration: none!important;}
+.main-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-flex-gap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo img {
+    width: 120px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.main-menu {
+    padding: 12px 0;
+}
+.search-box input {
+    padding: 4px 50px;
+    width: 500px;
+    border: 1px solid #dedede;
+}
+img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.searchicon {
+    position: absolute;
+    top: 5px;
+    left: 13px;
+}
+.secondsection a {
+    color: #454545;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.secondsection a:nth-child(2) {
+    background-color: red;
+    padding: 4px 20px 3px 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.secondsection a:nth-child(3) {
+    font-size: 20px;
+}
+.sub-header a{
+    font-size: 14px;
+    color: #454545;
+    padding-right: 5px;
+}
+.submenu-nav {
+    background: rgb(245, 245, 245);
+    padding: 10px 0;
+}
+.film-rows img{
+    border-radius: 20px;
+}

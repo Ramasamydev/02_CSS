@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .imgone{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+     @media(max-width:600px){
+        .box{
+            color: red;
+            font-size: 40px;
+        }
+     }
+     @media(min-width:800px){
+         .min{
+            color: green;
+            font-size: 40px;
+         }
+     }
+     @media(max-width:560px){
+        .imgone{
+             border-radius: 0;
+        }
+     }
+
+</style>
+<body>
+     <h2 class="box">Welcome</h2>
+
+     <h1 class="min">Im minimum Concept</h1>
+
+     <img src="./images/banner.webp" alt="" class="imgone">
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: "myfont-regular";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "myfont-bold";
+}
+
+@font-face {
+    font-family: "myfont-regular";
+    src: url("./fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "myfont-bold";
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+ol,ul{
+    list-style: none;
+}
+a{text-decoration: none;}
+
+/* /Default CSS ends here */  
+
+  .line{
+    background-color: brown;
+    height: 20px;
+    width: 600px;
+    position: relative;
+    margin: 50px 0;
+  }
+
+  .line .one::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    top: -22px;
+    left: 30px;
+}
+.line .two::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    top: -22px;
+    left: 120px;
+}
