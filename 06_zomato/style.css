@@ -1,0 +1,173 @@
+/* /Default CSS starst here */
+body {
+    font-family: "myfont-regular";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "myfont-bold";
+}
+
+
+@font-face {
+    font-family: "myfont-bold";
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "myfont-regular";
+    src: url("./fonts/Poppins-Regular.ttf");
+}
+
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+ol,ul{
+    list-style: none;
+}
+a{text-decoration: none;}
+
+/* /Default CSS ends here */ 
+
+.main-bg{
+    height: 450px;
+    width: 100%;
+    background-image: url("./images/food-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main-menu, .main-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-menu li {
+    padding: 0 15px;
+}
+
+.main-menu li a {
+    color: #fff;
+    font-size: 20px;
+}
+.left h5 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 270px;
+}
+.logo {
+    margin: 25px auto;
+    width: 350px;
+}
+.banner-heading{
+    font-family: "myfont-regular";
+}
+.banner-heading {
+    font-family: "myfont-regular";
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-input, .second-input{
+    position: relative;
+}
+.first-input input {
+    padding: 15px 30px;
+    width: 245px;
+}
+.second-input input{
+    padding: 15px 40px;
+    width: 480px;
+}
+.location {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.location .bi {
+    color: orange;
+}
+.downarrow {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.search-icon {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.below-banner{
+    margin: 50px 0;
+}
+.inner-box{
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 70%;
+    padding: 4px;
+    
+}
+
+.inner-box img {
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+
+.overlay {
+    border: 1px solid #dedede;
+    position: absolute;
+    height: 105px;
+    width: 101%;
+    background-color: #ffffff;
+    top: 214px;
+    left: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.inner-box h4  {
+    margin: 0;
+    padding: 0;
+}
+.inner-box p {
+    margin: 10px 0;
+    padding: 0;
+}
+.inner-box:hover{
+    transform: scale(1.05);
+    transition: all .3s ease;
+}

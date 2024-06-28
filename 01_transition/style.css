@@ -1,0 +1,36 @@
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .5s ease-in;
+}
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(187, 13, 42);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px;
+    transition: all .5s ease-in;
+}
+.green h1{
+    color: #ffffff;
+}
+.red h1{
+    color: #fff;
+}
+.green:hover{
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20%;
+    transition: all .5s ease-in;
+}
+.red:hover{
+    background-color: #08741b;
+    cursor: pointer;
+    border-radius: 20%;
+    transition: all .5s ease-in;
+}

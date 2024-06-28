@@ -1,0 +1,102 @@
+.outerbox div{
+    width: 120px;
+    height: 250px;
+}
+
+.red {   
+    background-color: red;
+}
+.green{    
+    background-color: green;
+}
+.blue{    
+    background-color: blue;
+}
+.yellow{    
+    background-color: yellow;
+}
+.orange{    
+    background-color: rgb(199, 133, 9);
+}
+.outerbox {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+}
+.outerbox div:nth-child(1):hover,.outerbox div:nth-child(3):hover,.outerbox div:nth-child(5):hover {
+    border-radius: 30px;
+}
+.outerbox div:nth-child(2):hover,.outerbox div:nth-child(4):hover {
+    border-radius: 100px;
+}
+.outerbox h4{
+    display: none;
+}
+.outerbox div:nth-child(1):hover h4, .outerbox div:nth-child(2):hover h4, .outerbox div:nth-child(3):hover h4,.outerbox div:nth-child(4):hover h4,.outerbox div:nth-child(5):hover h4{
+     display: block;
+}  
+
+
+
+
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+
+img{
+    margin: 0;
+    display: block;
+    height: 330px;
+    max-width: 100%;
+    width: 100%; 
+    transition: all 0.5s ease-in;
+    
+}
+
+img:hover{
+    transform: scale(0.9);  
+    transition: all 0.5s ease-in;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+}
+
+h1{
+    display: none;
+}
+
+.container .box:nth-child(even):hover h1{
+    display: block;
+}
+
+.container .box:nth-child(odd):hover h1{
+    display: block;
+}
+
+
+

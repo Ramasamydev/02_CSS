@@ -1,0 +1,78 @@
+/* /Default CSS starst here */
+body {
+    font-family: "normal-font";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "heading";
+}
+
+
+@font-face {
+    font-family: "heading";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "normal-font";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* /Default CSS ends here */
+
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px 0;
+}
+.boxes img{
+    border-radius: 20px;
+}
+.boxes p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.boxes h5{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: #1e044e;
+    color: #fff;
+    padding: 20px 0;
+}
+.bg h2 {
+    color: #fff;
+    margin: 40px 0;
+    
+}
+.bg .boxes{
+    margin: 10px 0;
+}

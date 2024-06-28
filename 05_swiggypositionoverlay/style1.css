@@ -1,0 +1,68 @@
+
+/* /Default CSS starst here */
+body {
+    font-family: "myfont-regular";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "myfont-bold";
+}
+
+@font-face {
+    font-family: "myfont-regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "myfont-bold";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+ 
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* /Default CSS ends here */
+ 
+
+.main-bg{
+    background-image: url("./images/nature.webp");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main-bg .content {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlaycolor {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(50deg, #2431be3c, #43c5374f);
+    position: absolute;
+}

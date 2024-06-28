@@ -1,0 +1,43 @@
+body{
+    font-family: "normal-font";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "heading";
+}
+
+@font-face {
+    font-family: "heading";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: "normal-font";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+.table {
+    margin: 0 auto;
+    padding: 20px;
+    width: 735px;
+    text-align: left;
+}
+.table tr td {
+    padding: 5px 0;
+}
+.table tr th, .table tr td{
+    border: 1px solid #ababab;
+}
+.table thead tr{
+    background-color: blueviolet;
+    color: #fff;
+}
+.table tbody tr:nth-child(odd){
+    background-color: #dedede;
+}
+.table tbody tr:nth-child(even){
+    background-color: #ededed;
+}
+.table tbody tr:nth-child(4) td:nth-child(4):hover{
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+}
