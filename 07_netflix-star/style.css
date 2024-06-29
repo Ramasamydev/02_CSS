@@ -23,7 +23,7 @@ ul{
 }
 
 .banner{
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-image: url('./images/netflix-bg.jfif');
     background-size: cover;
@@ -40,7 +40,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .menu-link {
     display: flex;
@@ -65,8 +65,16 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
     gap: 20px;
+}
+.left-content img{
+    width: 400px;
+}
+.left-content p{
+    color: white;
+    width: 600px;
+    font-size: 20px;
 }
 .right-content div  {
     color: #fff;
@@ -77,26 +85,20 @@ ul{
     font-size: 20px;
 }
 .right-content {
-    padding: 120px 0 0 0;
+    padding: 10px 0 0 0;
 }
-.left-content button:nth-child(2) {
-    padding: 9px 35px;
+.left-content :nth-child(3) {
+    padding: 10px 35px;
     font-size: 21px;
     margin: 10px 0;
     border-radius: 10px;
+    border: none;
+    background-color: red !important;
 }
 
-.left-content button:nth-child(2) .bi{
-    font-size: 30px;
-}
-.left-content button:nth-child(3) {
-    padding: 9px 35px;
-    font-size: 21px;
-    margin: 10px 0;
-    background-color: red;
-}
-.left-content button:nth-child(3) {
-    padding: 16px 35px;
+
+.left-content :nth-child(4) {
+    padding: 11px 35px;
     font-size: 21px;
     margin: 10px 0;
     background-color: #9292924d;
